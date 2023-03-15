@@ -18,6 +18,11 @@ arrayReplace([1, 2, 1], 1, 3);
 // 2. Write a function that returns the sum fo all numbers regardless of params
 // Example => For param1 = 1 and param2 = 2 , the output should be add (param1 , param2) = 3
 
+function sum(params1, params2) {
+  return params1 + params2;
+}
+console.log(sum(1, 2));
+
 function totalSum(...params1) {
   let total = 0;
   params1.forEach((SingleElement) => {
